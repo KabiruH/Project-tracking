@@ -1,21 +1,4 @@
-/*!
 
-=========================================================
-* Light Bootstrap Dashboard React - v2.0.1
-=========================================================
-
-* Product Page: https://www.creative-tim.com/product/light-bootstrap-dashboard-react
-* Copyright 2022 Creative Tim (https://www.creative-tim.com)
-* Licensed under MIT (https://github.com/creativetimofficial/light-bootstrap-dashboard-react/blob/master/LICENSE.md)
-
-* Coded by Creative Tim
-
-=========================================================
-
-* The above copyright notice and this permission notice shall be included in all copies or substantial portions of the Software.
-
-*/
-/*eslint-disable*/
 import React, { Component } from "react";
 
 import { Dropdown, Badge, Button, Form } from "react-bootstrap";
@@ -33,21 +16,7 @@ function FixedPlugin({
   image,
   setImage
 }) {
-  // constructor(props) {
-  //   super(props);
-  //   this.state = {
-  //     classes: "dropdown show-dropdown open",
-  //     bg_checked: true,
-  //     bgImage: this.props.bgImage,
-  //   };
-  // }
-  // handleClick = () => {
-  //   this.props.handleFixedClick();
-  // };
-  // onChangeClick = () => {
-  //   this.props.handleHasImage(!this.state.bg_checked);
-  //   this.setState({ bg_checked: !this.state.bg_checked });
-  // };
+ 
   return (
     <div className="fixed-plugin">
       <Dropdown>
@@ -108,19 +77,19 @@ function FixedPlugin({
           <li className={image === sideBarImage1 ? "active" : ""}>
             <a
               className="img-holder switch-trigger d-block"
-              href="#pablo"
+              href="#"
               onClick={(e) => {
                 e.preventDefault();
                 setImage(sideBarImage1);
               }}
             >
-              <img alt="..." src={sideBarImage1}></img>
+                
             </a>
           </li>
           <li className={image === sideBarImage2 ? "active" : ""}>
             <a
               className="img-holder switch-trigger d-block"
-              href="#pablo"
+              href="#"
               onClick={(e) => {
                 e.preventDefault();
                 setImage(sideBarImage2);
@@ -132,7 +101,7 @@ function FixedPlugin({
           <li className={image === sideBarImage3 ? "active" : ""}>
             <a
               className="img-holder switch-trigger d-block"
-              href="#pablo"
+              href="#"
               onClick={(e) => {
                 e.preventDefault();
                 setImage(sideBarImage3);
@@ -144,7 +113,7 @@ function FixedPlugin({
           <li className={image === sideBarImage4 ? "active" : ""}>
             <a
               className="img-holder switch-trigger d-block"
-              href="#pablo"
+              href="#"
               onClick={(e) => {
                 e.preventDefault();
                 setImage(sideBarImage4);
@@ -158,7 +127,7 @@ function FixedPlugin({
               <Button
                 block
                 className="btn-fill"
-                href="http://www.creative-tim.com/product/light-bootstrap-dashboard-react"
+                href="#"
                 rel="noopener noreferrer"
                 target="_blank"
                 variant="info"
@@ -172,7 +141,7 @@ function FixedPlugin({
               <Button
                 block
                 className="btn-fill"
-                href="http://www.creative-tim.com/product/light-bootstrap-dashboard-react"
+                href="#"
                 rel="noopener noreferrer"
                 target="_blank"
                 variant="default"
@@ -185,22 +154,9 @@ function FixedPlugin({
             Want more components?
           </li>
           <li className="button-container">
-            <div>
-              <Button
-                block
-                className="btn-fill"
-                href="http://www.creative-tim.com/product/light-bootstrap-dashboard-pro-react"
-                rel="noopener noreferrer"
-                target="_blank"
-                variant="primary"
-              >
-                Get The PRO Version!
-              </Button>
-            </div>
+          
           </li>
-          <li className="header-title" id="sharrreTitle">
-            Thank you for sharing!
-          </li>
+        
           <li className="button-container mb-4">
             <Button
               className="btn-social btn-outline btn-round sharrre"

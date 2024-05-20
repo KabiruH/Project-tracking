@@ -130,9 +130,8 @@ function User() {
                         <label>About Me</label>
                         <Form.Control
                           cols="80"
-                          defaultValue="Lamborghini Mercy, Your chick she so thirsty, I'm in
-                          that two seat Lambo."
-                          placeholder="Here can be your description"
+                          defaultValue="tell us more about you"
+                          placeholder="Whats your description"
                           rows="4"
                           as="textarea"
                         ></Form.Control>
@@ -161,27 +160,27 @@ function User() {
               </div>
               <Card.Body>
                 <div className="author">
-                  <a href="#pablo" onClick={(e) => e.preventDefault()}>
+                  <a href="#" onClick={(e) => e.preventDefault()}>
                     <img
                       alt="..."
                       className="avatar border-gray"
                       src={require("assets/img/faces/face-3.jpg")}
                     ></img>
-                    <h5 className="title">Mike Andrew</h5>
+                    <h5 className="title">K.Name</h5>
                   </a>
-                  <p className="description">michael24</p>
+                  <p className="description">K.Name</p>
                 </div>
                 <p className="description text-center">
-                  "Lamborghini Mercy <br></br>
-                  Your chick she so thirsty <br></br>
-                  I'm in that two seat Lambo"
+                  "Line 1 <br></br>
+                  Line 2 <br></br>
+                  Line 3"
                 </p>
               </Card.Body>
               <hr></hr>
               <div className="button-container mr-auto ml-auto">
                 <Button
                   className="btn-simple btn-icon"
-                  href="#pablo"
+                  href="#"
                   onClick={(e) => e.preventDefault()}
                   variant="link"
                 >
@@ -189,7 +188,7 @@ function User() {
                 </Button>
                 <Button
                   className="btn-simple btn-icon"
-                  href="#pablo"
+                  href="#"
                   onClick={(e) => e.preventDefault()}
                   variant="link"
                 >
@@ -197,7 +196,7 @@ function User() {
                 </Button>
                 <Button
                   className="btn-simple btn-icon"
-                  href="#pablo"
+                  href="#"
                   onClick={(e) => e.preventDefault()}
                   variant="link"
                 >

@@ -20,22 +20,22 @@ function Typography() {
           <Col md="12">
             <Card>
               <Card.Header>
-                <Card.Title as="h4">Light Bootstrap Table Heading</Card.Title>
+                <Card.Title as="h4">Project Tracker</Card.Title>
                 <p className="card-category">
-                  Created using Montserrat Font Family
+                  Created using React
                 </p>
               </Card.Header>
               <Card.Body>
                 <div className="typography-line">
                   <h1>
                     <span>Header 1</span>
-                    The Life of Light Bootstrap Dashboard React
+                    Project Tracker
                   </h1>
                 </div>
                 <div className="typography-line">
                   <h2>
                     <span>Header 2</span>
-                    The Life of Light Bootstrap Dashboard React
+                    Project Tracker
                   </h2>
                 </div>
                 <div className="typography-line">
